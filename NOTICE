@@ -1,0 +1,9 @@
+Gallium
+Copyright 2024-2026 The Gallium Authors
+
+This project includes code from the following third-party packages:
+
+- flutter_code_editor (Apache 2.0) Copyright 2022 Akvelon Inc.
+- code_field (MIT) Copyright 2021 Bertrand Bevillard
+- Flutter SDK (BSD 3-Clause) https://flutter.dev
+- Dart SDK (BSD 3-Clause) https://dart.dev

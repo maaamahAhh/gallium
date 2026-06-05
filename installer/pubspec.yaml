@@ -1,0 +1,26 @@
+name: gallium_installer
+description: Zero-interaction Windows installer for Gallium Editor.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  window_manager: ^0.5.1
+  archive: ^4.0.4
+  path: ^1.9.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/

@@ -1,0 +1,31 @@
+name: gallium_editor
+description: A high-performance, minimalist document editor built with Material Design 3.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  window_manager: ^0.5.1
+  google_fonts: ^6.2.1
+  flutter_code_editor:
+    path: ./packages/flutter_code_editor
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+  file_picker: ^9.2.1
+  shared_preferences: ^2.5.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
