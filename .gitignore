@@ -52,6 +52,9 @@ app.*.map.json
 # IDE/Tool configuration
 .antigravitycli/
 
+# Release artifacts
+releases/
+
 # Installer subdirectory build artifacts
 installer/build/
 installer/.dart_tool/
