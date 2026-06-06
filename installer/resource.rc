@@ -1,0 +1,18 @@
+// This is free and unencumbered software released into the public domain.
+// For more information, please refer to <https://unlicense.org>.
+
+#include "resource.h"
+
+// Application icon
+IDI_APPICON ICON "assets\\icon\\app_icon.ico"
+
+// Logo PNG
+IDB_LOGO   PNG  "assets\\images\\gallium_logo.png"
+
+// Embedded release ZIP (only included if the file exists)
+#ifdef HAS_EMBEDDED_ZIP
+IDR_ZIP    ZIP  "assets\\data\\gallium_release.zip"
+#endif
+
+// Outfit font
+IDR_FONT   FONT "assets\\fonts\\Outfit-Regular.ttf"

@@ -57,7 +57,7 @@ releases/
 
 # Installer subdirectory build artifacts
 installer/build/
-installer/.dart_tool/
+installer/assets/data/
 
 # Local package build artifacts
 packages/flutter_code_editor/.dart_tool/

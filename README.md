@@ -60,12 +60,11 @@ powershell -Command "Compress-Archive -Path `
 
 # Build the installer
 cd installer
-flutter pub get
-flutter build windows --release
+cmake -B build
+cmake --build build --config Release
 ```
 
-The installer binary is output to
-`installer/build/windows/x64/runner/Release/`.
+The installer binary is output to `installer/build/Release/`.
 
 ## Supported Languages
 
@@ -96,6 +95,6 @@ This project includes code from the following third-party packages:
 
 - **flutter_code_editor** (Apache 2.0) -- Copyright 2022 Akvelon Inc.
 - **code_field** (MIT) -- Copyright 2021 Bertrand Bevillard
+- **miniz** (MIT) -- Copyright 2013-2014 RAD Game Tools and Valve Software, Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 
-See [packages/flutter_code_editor/LICENSE](packages/flutter_code_editor/LICENSE)
-for full license texts.
+See [packages/flutter_code_editor/LICENSE](packages/flutter_code_editor/LICENSE) and [installer/miniz.c](installer/miniz.c) for full license texts.
